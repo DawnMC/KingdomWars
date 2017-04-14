@@ -1,0 +1,30 @@
+name: KingdomWars
+description: KingdomWars Plugin
+author: Dawn
+version: 1.0
+main: me.dawn.kingdomwars.KingdomWars
+commands: 
+  gm:
+    usage: /gm <0,1,spec>
+    description: Used to change gamemodes
+  ci:
+    usage: /ci
+    description: Used to clear inventory
+  treload:
+    usage: /treload
+    description: Used to reload config.yml
+  up:
+    usage: /up
+    description: Moves player up 50 blocks
+  kingdomwars:
+    usage: /kingdomwars
+    description: main kingdomwars command
+  heal:
+    usage: /heal
+    description: Used to restore health
+  loc:
+    usage: /loc
+    description: Used to print current player location
+  leave:
+    usage: /leave
+    description: Used to leave a game
